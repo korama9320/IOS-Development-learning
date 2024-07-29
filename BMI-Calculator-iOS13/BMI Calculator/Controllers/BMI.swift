@@ -6,23 +6,15 @@
 //  Copyright © 2024 Angela Yu. All rights reserved.
 //
 
-import Foundation
-struct BMI{
-    var weight : Float = 0.0
-    var height : Float = 0.0
-  
+import UIKit
+class BMI{
+    let value : Float
+    let advice : String
+    let color : UIColor
     
-    mutating func updateWeight(_ weight : Float){
-        self.weight = weight
-    }
-    
-    mutating func updateHeight(_ height : Float){
-        self.height = height
-    }
-    
-    func calculateBMI()->String{
-        let bmiValue = weight / pow(height, 2)
-        let  bmi=String(format: "%.2f", bmiValue)
-        return  bmi
+    init(value: Float, advicce: String, color: UIColor) {
+        self.value = value
+        self.advice = advicce
+        self.color = color
     }
 }
