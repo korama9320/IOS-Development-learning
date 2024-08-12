@@ -8,8 +8,11 @@
 
 import UIKit
 
-class MassageCell: UITableViewCell {
+class MessageCell: UITableViewCell {
 
+    @IBOutlet weak var senderImage: UIImageView!
+    @IBOutlet weak var container: UIView!
+    @IBOutlet weak var message: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
