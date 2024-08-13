@@ -76,7 +76,7 @@ extension WeatherViewController : WeatherManagerDelegate{
         print(error!)
     }
 }
-//Mark: - CLLocationManagerDelegate
+//MARK: - CLLocationManagerDelegate
 
 extension WeatherViewController : CLLocationManagerDelegate{
     
