@@ -10,6 +10,7 @@ import UIKit
 
 class MessageCell: UITableViewCell {
 
+    @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var senderImage: UIImageView!
     @IBOutlet weak var container: UIView!
     @IBOutlet weak var message: UILabel!

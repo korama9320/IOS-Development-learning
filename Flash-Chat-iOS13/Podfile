@@ -10,4 +10,5 @@ target 'Flash Chat iOS13' do
   pod 'FirebaseCore' , '~> 10.5.0'
   pod 'FirebaseFirestore' , '~> 10.5.0'
   pod 'FirebaseAuth' , '~> 10.5.0'
+  pod 'IQKeyboardManagerSwift' , '~>6.5.11'
 end
