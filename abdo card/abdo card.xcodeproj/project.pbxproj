@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EA210BF2C8C9DDC000A8B5A /* abdo_cardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA210BE2C8C9DDC000A8B5A /* abdo_cardApp.swift */; };
+		5EA210C12C8C9DDC000A8B5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA210C02C8C9DDC000A8B5A /* ContentView.swift */; };
+		5EA210C32C8C9DDF000A8B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA210C22C8C9DDF000A8B5A /* Assets.xcassets */; };
+		5EA210C62C8C9DDF000A8B5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA210C52C8C9DDF000A8B5A /* Preview Assets.xcassets */; };
+		5EA210CE2C8CA2ED000A8B5A /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EA210CD2C8CA2ED000A8B5A /* Pacifico-Regular.ttf */; };
+		5EA210D12C8DCD7F000A8B5A /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA210D02C8DCD7F000A8B5A /* CardItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EA210BB2C8C9DDC000A8B5A /* abdo card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "abdo card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA210BE2C8C9DDC000A8B5A /* abdo_cardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abdo_cardApp.swift; sourceTree = "<group>"; };
+		5EA210C02C8C9DDC000A8B5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EA210C22C8C9DDF000A8B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EA210C52C8C9DDF000A8B5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EA210CD2C8CA2ED000A8B5A /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		5EA210CF2C8CA564000A8B5A /* abdo-card-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "abdo-card-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5EA210D02C8DCD7F000A8B5A /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA210B82C8C9DDC000A8B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EA210B22C8C9DDC000A8B5A = {
+			isa = PBXGroup;
+			children = (
+				5EA210BD2C8C9DDC000A8B5A /* abdo card */,
+				5EA210BC2C8C9DDC000A8B5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA210BC2C8C9DDC000A8B5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA210BB2C8C9DDC000A8B5A /* abdo card.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA210BD2C8C9DDC000A8B5A /* abdo card */ = {
+			isa = PBXGroup;
+			children = (
+				5EA210CF2C8CA564000A8B5A /* abdo-card-Info.plist */,
+				5EA210CC2C8CA2AE000A8B5A /* fonts */,
+				5EA210BE2C8C9DDC000A8B5A /* abdo_cardApp.swift */,
+				5EA210C02C8C9DDC000A8B5A /* ContentView.swift */,
+				5EA210D02C8DCD7F000A8B5A /* CardItem.swift */,
+				5EA210C22C8C9DDF000A8B5A /* Assets.xcassets */,
+				5EA210C42C8C9DDF000A8B5A /* Preview Content */,
+			);
+			path = "abdo card";
+			sourceTree = "<group>";
+		};
+		5EA210C42C8C9DDF000A8B5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EA210C52C8C9DDF000A8B5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EA210CC2C8CA2AE000A8B5A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5EA210CD2C8CA2ED000A8B5A /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EA210BA2C8C9DDC000A8B5A /* abdo card */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA210C92C8C9DDF000A8B5A /* Build configuration list for PBXNativeTarget "abdo card" */;
+			buildPhases = (
+				5EA210B72C8C9DDC000A8B5A /* Sources */,
+				5EA210B82C8C9DDC000A8B5A /* Frameworks */,
+				5EA210B92C8C9DDC000A8B5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "abdo card";
+			productName = "abdo card";
+			productReference = 5EA210BB2C8C9DDC000A8B5A /* abdo card.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EA210B32C8C9DDC000A8B5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5EA210BA2C8C9DDC000A8B5A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 5EA210B62C8C9DDC000A8B5A /* Build configuration list for PBXProject "abdo card" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EA210B22C8C9DDC000A8B5A;
+			productRefGroup = 5EA210BC2C8C9DDC000A8B5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EA210BA2C8C9DDC000A8B5A /* abdo card */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA210B92C8C9DDC000A8B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA210CE2C8CA2ED000A8B5A /* Pacifico-Regular.ttf in Resources */,
+				5EA210C62C8C9DDF000A8B5A /* Preview Assets.xcassets in Resources */,
+				5EA210C32C8C9DDF000A8B5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA210B72C8C9DDC000A8B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA210C12C8C9DDC000A8B5A /* ContentView.swift in Sources */,
+				5EA210BF2C8C9DDC000A8B5A /* abdo_cardApp.swift in Sources */,
+				5EA210D12C8DCD7F000A8B5A /* CardItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5EA210C72C8C9DDF000A8B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EA210C82C8C9DDF000A8B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EA210CA2C8C9DDF000A8B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"abdo card/Preview Content\"";
+				DEVELOPMENT_TEAM = 445H58F482;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "abdo-card-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurama.abdo-card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EA210CB2C8C9DDF000A8B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"abdo card/Preview Content\"";
+				DEVELOPMENT_TEAM = 445H58F482;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "abdo-card-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kurama.abdo-card";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EA210B62C8C9DDC000A8B5A /* Build configuration list for PBXProject "abdo card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA210C72C8C9DDF000A8B5A /* Debug */,
+				5EA210C82C8C9DDF000A8B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA210C92C8C9DDF000A8B5A /* Build configuration list for PBXNativeTarget "abdo card" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA210CA2C8C9DDF000A8B5A /* Debug */,
+				5EA210CB2C8C9DDF000A8B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EA210B32C8C9DDC000A8B5A /* Project object */;
+}
