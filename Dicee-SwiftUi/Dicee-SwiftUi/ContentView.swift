@@ -36,8 +36,8 @@ struct ContentView: View {
         }
     }
     func roll(){
-        diceeOne = Int.random(in: 1...6)
-        diceeTwo = Int.random(in: 1...6)
+        self.diceeOne = Int.random(in: 1...6)
+        self.diceeTwo = Int.random(in: 1...6)
     }
     
 }
